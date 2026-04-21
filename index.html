@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-mode="box">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="black.png">
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <h1>SNAKE</h1>
+      <div class="header-btns">
+        <button id="modeBtn"  onclick="toggleMode()">INFINITY</button>
+        <button id="themeBtn" onclick="toggleTheme()">DARK MODE</button>
+      </div>
+    </header>
+
+    <div class="score-strip">
+      <div class="score-box">
+        <div class="label">SCORE</div>
+        <div class="value" id="scoreDisplay">000</div>
+      </div>
+      <div class="score-box">
+        <div class="label">BEST</div>
+        <div class="value" id="bestDisplay">000</div>
+      </div>
+      <div class="score-box">
+        <div class="label">LEVEL</div>
+        <div class="value" id="levelDisplay">01</div>
+      </div>
+    </div>
+
+    <div class="canvas-wrap">
+      <canvas id="gameCanvas"></canvas>
+
+      <div class="overlay" id="overlay">
+        <div class="overlay-title" id="overlayTitle">SNAKE</div>
+        <div class="overlay-score" id="overlayScore"></div>
+        <div class="overlay-sub"   id="overlaySub">ARROW KEYS / WASD TO MOVE</div>
+        <button class="action-btn" id="mainBtn"   onclick="startGame()">START</button>
+        <button class="revive-btn" id="reviveBtn" onclick="revivePlayer()" style="display:none">REVIVE (×1)</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <span>↑↓←→ / WASD &nbsp;·&nbsp; P PAUSE &nbsp;·&nbsp; R RESTART</span>
+    </div>
+
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
