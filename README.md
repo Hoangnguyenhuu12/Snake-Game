@@ -39,7 +39,7 @@ No build step needed. Just open the file in a browser:
 ```bash
 # Clone the repo
 git clone https://github.com/Hoangnguyenhuu12/Snake-Game.git
-cd snake-game
+cd Snake-Game
 
 # Open directly
 open index.html          # macOS
