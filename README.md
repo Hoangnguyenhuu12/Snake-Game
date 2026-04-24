@@ -1,7 +1,7 @@
 # Snake Game
 A clean, minimal Snake web game built with vanilla HTML, CSS, and JavaScript — no frameworks or dependencies required.
 
-🔗 **Live demo:** `https://Hoangnguyenhuu12.github.io/Snake-Game`
+🔗 **Live demo:** [Snake-Game](https://Hoangnguyenhuu12.github.io/Snake-Game)
 
 ---
 
